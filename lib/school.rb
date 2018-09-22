@@ -19,6 +19,6 @@ class School
   end
   
   def sort
-    @roster.collect {|grade, students|  @roster[grade] = students.sort}
+   return_hash = @roster.collect {|grade, students| grade => students.sort}
   end
 end
