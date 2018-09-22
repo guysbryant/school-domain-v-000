@@ -21,5 +21,6 @@ class School
   def sort
    return_hash = {}
    @roster.each {|grade, students| return_hash[grade] = students.sort}
+   return_hash
   end
 end
